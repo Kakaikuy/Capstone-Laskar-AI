@@ -28,11 +28,11 @@ def download_from_drive(file_id, filename):
     return filename
 
 # ==== File ID Google Drive ====
-MODEL_FILE_ID = "1Tyw7lpHjtb-89_PWG3o8WlxK0LG6nAuz"
+MODEL_FILE_ID = "1-jNqLk9TO9H-JrSLTRggicNb1Ct7y-YF"
 SCALER_FILE_ID = "159U3pSEG4tYb3sk0i0GKyJiQHZs2WeEh"
 
 # ==== Unduh dan load model ====
-model_path = download_from_drive(MODEL_FILE_ID, "model_kemacetan.h5")
+model_path = download_from_drive(MODEL_FILE_ID, "model_kemacetan_tf213.h5")
 scaler_path = download_from_drive(SCALER_FILE_ID, "scaler.pkl")
 
 try:
